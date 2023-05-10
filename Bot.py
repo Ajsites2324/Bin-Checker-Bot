@@ -24,12 +24,12 @@ async def start(_, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Channel", url="https://t.me/szteambots"),
-                InlineKeyboardButton("Support", url="https://t.me/slbotzone"),
+                InlineKeyboardButton("✨Channel✨", url="https://t.me/fuck_number"),
+                InlineKeyboardButton("💥Support💥", url="https://t.me/+e7-Qe-8uxTtiOWRl"),
             ],
             [
                 InlineKeyboardButton(
-                    "Source code", url="https://github.com/ImDenuwan/Bin-Checker-Bot"
+                    "ᴍʏ ᴅᴀᴅᴅʏ", url="https://t.me/papa_bol_sakteho"
                 )
             ],
         ]
@@ -64,7 +64,7 @@ async def bin(_, m: Message):
             res = req["result"]
 
             if res == False:
-                return await mafia.edit("❌ #INVALID_BIN ❌\n\nPlease provide a valid bin.")
+                return await mafia.edit("❌ #INVALID_BIN ❌\n\nPlease provide a valid bin baby.")
             da = req["data"]
             bi = da["bin"]
             ve = da["vendor"]
@@ -80,12 +80,12 @@ async def bin(_, m: Message):
 
             mfrom = m.from_user.mention
             caption = f"""
-    ╔ Valid :- `{res} ✅`\n╚ Bin :- `{bi}`\n\n╔ Brand :- `{ve}`\n╠ Type :- `{ty}`\n╚ Level :- `{le}`\n\n╔ Bank :- `{ban} ({co})`\n╠ Country :- `{nm} {em}`\n╠ Alpha2 :- `{cod}`\n╚ DialCode :- `{dial}`\n\n**↠ Checked By :-** {mfrom}\n**↠ __Bot By :-** [Denuwan](https://github.com/ImDenuwan/Bin-Checker-Bot)__
+    ╔ Valid :- `{res} ✅`\n╚ Bin :- `{bi}`\n\n╔ Brand :- `{ve}`\n╠ Type :- `{ty}`\n╚ Level :- `{le}`\n\n╔ Bank :- `{ban} ({co})`\n╠ Country :- `{nm} {em}`\n╠ Alpha2 :- `{cod}`\n╚ DialCode :- `{dial}`\n\n**↠ Checked By :-** {mfrom}\n**↠ __Bot By :-** [➤⃝✖‿✖•Ajͥeeͣtͫ](https://t.me/papa_bol_sakteho)__
     """
             await mafia.edit(caption, disable_web_page_preview=True)
             
         except Exception as e:
-            await bot.reply_text(f"**Oops Error!**\n{e}\n\n**Report This Bug to Bot Owner.**")
+            await bot.reply_text(f"**Oops Error baby !**\n{e}\n\n**Report This Bug to Bot Owner.**")
 
 print("Bot IS Alive Now")
 
